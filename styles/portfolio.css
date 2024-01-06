@@ -19,12 +19,13 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    
+    margin: 0 200px;
 }
 nav li{
     align-items: center;
     list-style: none;
     margin-right: 50px;
+    
 }
     
 .nav-title{
@@ -41,4 +42,18 @@ nav ul{
 }
 nav a{
     text-decoration: none;
+    color: #181818;
+}
+
+/* header related style*/
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
 }
