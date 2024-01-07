@@ -136,6 +136,8 @@ font-weight: 700;
 }
 .resume-container{
     display: flex;
+    gap: 150px;
+    margin: 30px;
 }
 .resume-item-title{
     color:  #474747;
@@ -147,4 +149,9 @@ font-weight: 700;
 font-size: 20px;
 font-weight: 600;
 
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
