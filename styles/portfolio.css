@@ -76,12 +76,17 @@ nav a{
     font-weight: 700;
     margin-top: 5px;
 }
+/* main section*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about me */
 .about{
     margin-top: 130px;
-    margin-left: 180px;
-    margin-right: 180px;
+   /* margin-left: 180px;
+    margin-right: 180px;*/
     padding: 131px;
     border-radius: 10px;
     background: #FFF8F3;
@@ -99,5 +104,12 @@ font-size: 18px;
 font-weight: 400;
 line-height: 30px; /* 166.667% */
 }
+.about-info{
+    text-align: center;
+}
 
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
 
